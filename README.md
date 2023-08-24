@@ -6,7 +6,7 @@ This repository contains the code for a small but beautiful animated link tree c
 
 <hr>
 
-<img src="banner.png" alt="Readme Banner" width="100%">
+<img src="banner.jpg" alt="Readme Banner" width="100%">
  
 <p align="center">
           <img alt="Website" src="https://img.shields.io/website?down_color=darkred&down_message=error&logo=github&style=plastic&up_color=lime&up_message=working&url=https%3A%2F%2FRhythmusByte.github.io%2FLinkTree%2F">
