@@ -1,7 +1,7 @@
 <h1><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&size=28&duration=3000&pause=1000&color=30FF00&width=500&lines=Hey+Guys+%F0%9F%91%8B;Welcome+to+my+repo;This+repo+contains+the;Source+Code+of+a;Animated+Link+Tree;using+HTML+,+CSS+%26+JavaScript;Don't+forget+to+give+a+star" alt="Typing SVG" /></a></h1>
 
 <p>
-This repository contains the code for a small but beautiful animated link tree created with HTML, CSS, and JavaScript. The link tree is open source and was written entirely on a smartphone. It is a great way to organize your links and make them more visually appealing. This webpage is hosted on <a href="https://rhythmusbyte.github.io/LinkTree" target="_blank">GitHub Pages</a>
+This repository contains the code for a small but beautiful animated link tree created with HTML, CSS, and JavaScript. The link tree is open source and was written entirely on a smartphone. It is a great way to organize your links and make them more visually appealing. This webpage is hosted on <a href="https://rhythmusbytelinks.netlify.app" target="_blank">Netlify</a> and also on <a href="https://rhythmusbyte.github.io/LinkTree" target="_blank">GitHub Pages</a>
 </p>
 
 <hr>
@@ -9,7 +9,9 @@ This repository contains the code for a small but beautiful animated link tree c
 <img src="https://res.cloudinary.com/dqocmr8iu/image/upload/v1692891744/Projects/LinkTree/banner_t7lbhh.jpg" alt="Readme Banner" width="100%">
  
 <p align="center">
-          <img alt="Website" src="https://img.shields.io/website?down_color=darkred&down_message=error&logo=github&style=plastic&up_color=lime&up_message=working&url=https%3A%2F%2FRhythmusByte.github.io%2FLinkTree%2F">
+          <img alt="Website" src="https://img.shields.io/website?down_color=darkred&down_message=error&logo=netlify&style=plastic&up_color=lime&up_message=working&url=https%3A%2F%2Frhythmusbytelinks.netlify.app%2F">
+  
+ <img alt="Website" src="https://img.shields.io/website?down_color=darkred&down_message=error&logo=github&style=plastic&up_color=lime&up_message=working&url=https%3A%2F%2FRhythmusByte.github.io%2FLinkTree%2F">
           <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/RhythmusByte/LinkTree?color=black&logo=github&style=plastic">
           <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/RhythmusByte/LinkTree?color=black&style=plastic">
           <img alt="GitHub" src="https://img.shields.io/github/license/RhythmusByte/LinkTree?color=black&logo=github&style=plastic">
