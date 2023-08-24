@@ -1,0 +1,208 @@
+:root {
+    --bg: rgb(0,8,20); /* Background */
+    --text: rgb(255,195,0); /* Yellow */
+    --bgshare: rgb(0,29,61); /* Share Button Background */
+    --icon: rgb(255,214,10); /* Icon Color */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg);
+    width: 100vw;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    width: 95%;
+    max-width: 788px;
+    padding: 14px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Share Button */
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--bgshare);
+}
+
+.share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: var(--icon);
+}
+
+/* Container */
+
+.container {
+    width: 90%;
+    max-width: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+/* Logo */
+
+.logocontainer {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: var(--bg);
+    overflow: hidden;
+}
+
+.logocontainer::before {
+    content: '';
+    position: absolute;
+    inset: -5px 25px;
+    background: linear-gradient(315deg,#0ef,#d400d4,#ff0a00,#a400ff);
+    transition: 0.5s;
+    animation: animate 2.5s linear infinite;
+}
+
+.logocontainer:hover::before {
+    inset: -10px 0px;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logocontainer::after {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    background: #070a1c;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    inset: 15px;
+    border: 1.5px solid #070a1c;
+    z-index: 3;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.logocontainer:hover .logo img {
+    opacity: 0;
+}
+
+.logo h2 {
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.logo h2 span {
+    font-weight: 300;
+    font-size: 0.75em;
+}
+
+.logo a {
+    position: relative;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background: var(--bg);
+    color: var(--icon);
+    border-radius: 12.5px;
+    font-weight: 500;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    letter-spacing: 0.2em;
+}
+
+.tile {
+    width: 100%;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.share {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--bgshare);
+    color: #fff;
+}
+
+.share svg {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+    color: #fff;
+}
+
+/* Footer */
+
+.credit a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
