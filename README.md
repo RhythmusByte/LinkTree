@@ -9,7 +9,13 @@ This repository contains the code for a small but beautiful animated link tree c
 <img src="https://res.cloudinary.com/dqocmr8iu/image/upload/v1692891744/Projects/LinkTree/banner_t7lbhh.jpg" alt="Readme Banner" width="100%">
  
 <p align="center">
-          <img alt="Website" src="https://img.shields.io/website?down_color=darkred&down_message=error&logo=netlify&style=plastic&up_color=lime&up_message=working&url=https%3A%2F%2Frhythmusbytelinks.netlify.app%2F">
+
+<a href="https://app.netlify.com/sites/rhythmusbytelinks/deploys">
+  <img src="https://api.netlify.com/api/v1/badges/2a0f99be-9043-4e67-9b10-813b174c0f4b/deploy-status" alt="Netlify Status" />
+</a>
+
+ 
+<img alt="Website" src="https://img.shields.io/website?down_color=darkred&down_message=error&logo=netlify&style=plastic&up_color=lime&up_message=working&url=https%3A%2F%2Frhythmusbytelinks.netlify.app%2F">
   
  <img alt="Website" src="https://img.shields.io/website?down_color=darkred&down_message=error&logo=github&style=plastic&up_color=lime&up_message=working&url=https%3A%2F%2FRhythmusByte.github.io%2FLinkTree%2F">
           <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/RhythmusByte/LinkTree?color=black&logo=github&style=plastic">
