@@ -10,7 +10,7 @@ async function copyText(e) {
     console.log(link)
     try {
         await navigator.clipboard.writeText(link)
-        alert("Copied the link: " + link)
+        alert("Copied the link")
     } catch (err) {
         console.error(err)
     }
